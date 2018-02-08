@@ -5,7 +5,7 @@ require COMPONENT_DIR . 'batch/batch_alias_path.class.php';
 if(!defined('ALIAS_PATH_DEPTH'))
 	define('ALIAS_PATH_DEPTH', 3);
  
-//[+]initialization
+//[+]initialization 
 $obj = new batch_alias_path();
 $obj->setDepthAliasPath(ALIAS_PATH_DEPTH);
 //[-]
